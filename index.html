@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My music</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="wallpaper">
+            <div class="statusbar">
+                <div class="bar-icon">
+                    <i class="fas fa-bars" id=""></i>
+                </div>
+                <div class="bar-icon-searchMp3">
+                    <input type="text" name="" class="input_search__MP3" id="search-mp3" placeholder="Tìm kiếm bài hát...">
+                     <!-- test tiềm kiếm -->
+            <div class="list_song_search">
+                <ul class="list_song_search-list">
+                    <!-- <li class="list_song_search-item">
+                        <div class="song">
+                            <div class="song-img" style="background-image: url(./img/img2.jpg);"></div>
+                            <div class="song-content">
+                                <h3 class="song-content-heading">
+                                    Sài Gòn Đau Lòng Quá
+                                </h3>
+                                <p class="song-content-author">
+                                    Hứa Kim Tuyền
+                                </p>
+                            </div>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+                
+            <!-- ------------------------ -->
+                </div>
+                <div class="bar-icon searchMp3__bar">
+                    <i class="fas fa-search" id="icon-search-btn"></i>
+                   
+                </div>
+                
+            </div>
+           
+
+            <div class="body-avatar">
+                <img src="img/img-removebg.png" alt="" class="body-avatar-img">
+            </div>
+            <div class="content">
+                
+                    <h3 class="heading-title">Spending Time width Yourself</h3>
+                    <p class="heading-description">
+                        Start choosing yourself daily and doing what feels right for you
+                    </p>
+            </div>
+            <div class="btn-start">
+                <p>Start</p>
+                <i class="fas fa-angle-up"></i>
+            </div>
+            <div class="btn-login">
+                <p>Login</p>
+                <i class="fas fa-user"></i>
+            </div>
+            <!-- start player -->
+            <div class="player">
+                <div class="dashboard">
+                    <div class="line"></div>
+                    <div class="cd">
+                        <div class="cd-thumb"></div>
+                    </div>
+                    <div class="about">
+                        <div class="about-content">
+                            <h3 class="title">Sài gòn đau lòng quá</h3>
+                            <p class="author">Hứa Kim Tuyền</p>
+                        </div>
+                        <div class="about-heart active">
+                            <i class="fas fa-heart icon-like"></i>
+                            <i class="far fa-heart icon-unlike"></i>
+                        </div>
+                    </div>
+    
+                    <div class="control">
+                        <div class="btn btn-repeat">
+                            <i class="fas fa-redo"></i>
+                        </div>
+                        <div class="btn btn-prev">
+                            <i class="fas fa-step-backward"></i>
+                        </div>
+                        <div class="btn btn-play-toger">
+                            <i class="fas fa-play icon-play"></i>
+                            <i class="fas fa-pause icon-pause"></i>
+                        </div>
+                        <div class="btn btn-next">
+                            <i class="fas fa-step-forward"></i>
+                        </div>
+                        <div class="btn btn-random">
+                            <i class="fas fa-random"></i>
+                        </div>
+                    </div>
+                    <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+                    <audio src=""></audio>
+                </div>
+
+                <!-- playlist -->
+                <div class="playlist">
+
+                    <div class="song">
+                        <div class="song-img" style="background-image: url(./img/img2.jpg);"></div>
+                        <div class="song-content">
+                            <h3 class="song-content-heading">
+                                Sài Gòn Đau Lòng Quá
+                            </h3>
+                            <p class="song-content-author">
+                                Hứa Kim Tuyền
+                            </p>
+                        </div>
+                        <div class="song-option">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="song">
+                        <div class="song-img" style="background-image: url(./img/img2.jpg);"></div>
+                        <div class="song-content">
+                            <h3 class="song-content-heading">
+                                Sài Gòn Đau Lòng Quá
+                            </h3>
+                            <p class="song-content-author">
+                                Hứa Kim Tuyền
+                            </p>
+                        </div>
+                        <div class="song-option">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="song">
+                        <div class="song-img" style="background-image: url(./img/img2.jpg);"></div>
+                        <div class="song-content">
+                            <h3 class="song-content-heading">
+                                Sài Gòn Đau Lòng Quá
+                            </h3>
+                            <p class="song-content-author">
+                                Hứa Kim Tuyền
+                            </p>
+                        </div>
+                        <div class="song-option">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="song">
+                        <div class="song-img" style="background-image: url(./img/img2.jpg);"></div>
+                        <div class="song-content">
+                            <h3 class="song-content-heading">
+                                Sài Gòn Đau Lòng Quá
+                            </h3>
+                            <p class="song-content-author">
+                                Hứa Kim Tuyền
+                            </p>
+                        </div>
+                        <div class="song-option">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    
+                   </div>
+                 </div>
+            <!-- end player -->
+
+            <!-- form singin -->
+            <div class="form-login ">
+                <div class="form-container">
+                    <div class="form-statubar">
+                        <img src="./img/sign-out.png" alt="" class="icon-back">
+                    </div> 
+                    <div class="body-avatar">
+                        <img src="img/boy (1).svg" alt="" class="body-img">
+                    </div>
+                    <div class="body-content">
+                        <h3 class="body-content-heading">
+                            Let's sign you in.
+                        </h3>
+                        <p class="body-content-description">
+                            Welcome back.
+                            You've been missed!
+                        </p>
+                    </div>
+                    <div class="input-div">
+                        <i class="fas fa-user-astronaut"></i>
+                        <input type="text" placeholder="Emaill or username">
+                    </div>
+                    <div class="input-div">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <div class="form-footer">
+                        <div class="login-forget">
+                            <p>Don't have on account?</p><a href="#">Register</a>
+                    </div>
+                    <div class=" login-btn">
+                        <button>Sign in</button>
+                    </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
